@@ -17,8 +17,11 @@ Flask 2.0.2
 
 ## 目录结构描述
 ├── README.md                   // help
+
 ├── meanImage.png               // 测试集求出的均值脸
+
 ├── diffImage.png               // 测试脸与均值脸之差
+
 ├── RigenFace                   // 测试集的特征脸图像
 │   ├── 0.jpg
 │   ├── 1.jpg
