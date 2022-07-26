@@ -1,0 +1,476 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+
+  <!-- Meta tags & title /-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>PCA - ChenYa</title>
+  <meta name="description" content="This template is an easy to use app landing page, responsive and pretty easy to customize including some great easing effects, modal window, a sticky header with share buttons & others stuff !" />
+  <meta name="keywords" content="Free, template, easy to use, customise, one page, template, simple, minimal, landing page, app page, supview" />
+  <meta name="author" content="Supview - François Martin">
+
+  <!-- Favicon /-->
+  <link rel="shortcut icon" href="/static/img/favicon.png" type="image/x-icon" /> <!-- Favicon /-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Stylesheets /-->
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/gumby.css') }}">   			<!-- Gumby Framework /-->
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">   			<!-- Main stylesheet /-->
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/animate.css') }}"> 			<!-- Animations /-->
+    
+  
+  <script src="{{ url_for('static',filename='js/modernizr-2.6.2.min.js') }}"></script>  <!-- Modernizr /-->
+  
+</head>
+
+
+<body>
+
+<!-- Preload the Whole Page -->
+
+<div id="preloader">   		
+<div id="loading-animation">&nbsp;</div>
+</div>
+
+
+<!-- NAVIGATION ############################################### -->
+
+
+		<div class="cbp-af-header">
+		
+			<nav >
+				
+				<!--  Share DIV--> 
+
+				 <div class="right">
+
+					<!--  Facebook Share Button--> 
+	
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.baribal.be%2Fshowpage%2F&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:170px; height:20px; margin-right:20px;" ></iframe>
+	
+				 	<!-- Twitter Share Button --> 
+		
+<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	
+					 
+				 </div> <!-- End Share dIV -->
+
+				 <!-- Logo -->
+			
+				 <div id="logo">
+				 
+<!--				 	<a href="#"><img alt="Logo" src="/static/img/logo.png"></a>-->
+				 	
+				 </div>
+				
+				 <!-- Links -->
+				
+				 <ul id="nav" >
+				 
+<!--					 <li><a href="http://www.iamsupview.be">The Author</a></li>-->
+					 					 
+					 <li><a href="http://www.baribal.be/showpage/dl/">Get it</a></li>
+					 
+				 </ul>
+				 			 
+			</nav>
+
+		
+		</div> 
+
+<!-- END NAVIGATION ############################################### -->
+
+
+<!-- HEADER / FIRST SECTION ############################################### -->
+
+
+<!--<section class="page1">-->
+
+<!--		      	&lt;!&ndash; Huge Title centered &ndash;&gt; -->
+<!--		      -->
+<!--		        <div class="huge-title centered">  -->
+<!--		        -->
+<!--		          <div class="logo-phone centered"><img alt="YOURLOGO" src="/static/img/logo-phone.png"></div>  &lt;!&ndash; This Logo is only displayed on Tablet/iPhone !&ndash;&gt;-->
+<!--		      -->
+<!--		          <h1>基于PCA的人脸识别</h1>-->
+<!--		          -->
+<!--		          <div class="space"></div>-->
+<!--		          -->
+<!--		          <a href="#container" class="button-white goto">Discover more</a> -->
+<!--		  	  -->
+<!--		  	    </div>-->
+<!--		  	  -->
+<!--		  	    &lt;!&ndash; IMG DISCOVER MORE &ndash;&gt; -->
+<!--		  	  -->
+<!--		  	    <div class="go-down twelve columns">-->
+<!--		  	  -->
+<!--		  	      <a href="#container" class="goto"><img src="/static/img/down.png" alt="MORE"></a>-->
+<!--		  	  -->
+<!--		  	    </div>-->
+
+<!--</section>-->
+
+
+<!-- END HEADER ############################################### -->
+
+
+
+<!-- BEGIN CONTAINER ############################################### -->
+
+
+<div id="container" class="container">
+
+
+<!-- SECOND SECTION ############################################### -->
+
+<!--输入训练图片-->
+<section class="page2">
+
+	<div class="row">
+		
+				<div class="six columns article make-it-appear-right">
+				
+					<!-- Title --> 
+				
+					<h3>
+						<b>
+							测试图片
+						</b>
+					</h3>
+								
+					<!-- Content --> 
+					
+					<p>
+						本实验中，训练集使用40个人每人9张照片，共360张图片，每张图片大小为92×112。
+					</p>
+										
+					<div class="space"></div>
+
+					<img src="/static/img/3.png" alt="EXEMPLE">
+
+					<br /><br />
+
+					<style>
+						.button {
+							background-color: #4CAF50;
+							border: none;
+							color: white;
+							padding: 15px 32px;
+							text-align: center;
+							text-decoration: none;
+							display: inline-block;
+							font-size: 16px;
+							margin: 4px 2px;
+							cursor: pointer;
+						}
+					</style>
+
+<!--					<form action="" method="post" enctype="multipart/form-data">-->
+<!--						<input type="file" name="fileupload" class="input">-->
+<!--&lt;!&ndash;						<input type="button" value="确定" class="button" onclick="postFile()">&ndash;&gt;-->
+<!--						<input type="submit" value="确定" class="button">-->
+<!--					</form>-->
+
+					<div class="space"></div>
+					
+<!--					<a  class="js-open-modal button-blue">选择图片</a>-->
+					
+				
+				</div>
+				
+				<!-- Image from right --> 
+			
+				<div class="five columns picture make-it-appear-left" >
+					{% if imagename %}
+            			<img src="{{ url_for('static',filename='uploads/'+imagename) }}" width="300px" height="300px"/>
+					{% else %}
+						<img src="/static/img/2.png" alt="EXEMPLE">
+        			{% endif %}
+<!--					<img src="/static/img/2.png" alt="EXEMPLE">-->
+				
+				</div>
+		
+			</div> <!-- End row div -->    
+
+</section>
+
+<!-- END SECOND SECTION ############################################### -->
+
+
+
+
+<!-- TIRTH SECTION ############################################### -->
+
+
+<section class="page3">
+
+	<div class="row">
+
+				<div class="six columns article make-it-appear-right">
+
+					<!-- Title -->
+					<div class="space"></div>
+
+					<h3>
+						<b>
+							PCA人脸识别结果
+						</b>
+					</h3>
+
+					<!-- Content -->
+
+<!--					<p>-->
+<!--						-->
+<!--					</p>-->
+					<img src="/static/img/4.png" alt="EXEMPLE">
+
+
+
+<!--					<div class="space"></div>-->
+<!--					<div class="space"></div>-->
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a  class="js-open-modal button-white"></a>
+					<div class="space"></div>
+					<div class="space"></div>
+
+
+				</div>
+
+				<!-- Image from right -->
+
+				<div class="five columns picture make-it-appear-left" >
+					<div class="space"></div>
+					<div class="space"></div>
+					{% if imagename %}
+						<img src="{{ url_for('static',filename='FaceDB_orl/'+first1+'/'+first2) }}" height="10" weight="5">
+						<img src="{{ url_for('static',filename='FaceDB_orl/'+second1+'/'+second2) }}" height="10" weight="5">
+						<img src="{{ url_for('static',filename='FaceDB_orl/'+third1+'/'+third2) }}" height="10" weight="5">
+						<img src="{{ url_for('static',filename='FaceDB_orl/'+fourth1+'/'+fourth2) }}" height="10" weight="5">
+					{% else %}
+						<img src="/static/img/1.png" height="10" weight="5">
+						<img src="/static/img/1.png" height="10" weight="5">
+						<img src="/static/img/1.png" height="10" weight="5">
+					{% endif %}
+<!--					<p>-->
+<!--						平均脸：-->
+<!--					</p>-->
+<!--					<img src="/static/img/meanImage.png" height="10" weight="5">-->
+
+<!--					<p>-->
+<!--						测试脸与均值脸之差：-->
+<!--					</p>-->
+<!--					<img src="/static/img/diffImage.png" height="10" weight="5">-->
+
+				</div>
+
+			</div> <!-- End row div -->
+
+</section>
+
+<!--<section class="page3" >-->
+
+<!--	<div class="row">-->
+
+<!--				&lt;!&ndash; Image from left &ndash;&gt; -->
+<!--			-->
+<!--				<div class="five columns picture make-it-appear-right" >-->
+<!--				-->
+<!--					<img src="/static/img/2.png" alt="EXEMPLE">-->
+<!--				-->
+<!--				</div>-->
+
+<!--		-->
+<!--				<div class="six columns article make-it-appear-left">-->
+<!--				-->
+<!--					&lt;!&ndash; Title &ndash;&gt; -->
+<!--				-->
+<!--					<h3>Pretty easy to customize</h3>-->
+<!--								-->
+<!--					&lt;!&ndash; Content &ndash;&gt; -->
+<!--					-->
+<!--					<p>Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. <b>Andouille</b> tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.</p>-->
+<!--										-->
+<!--					<div class="space"></div>-->
+<!--					-->
+<!--					<a class="js-open-modal button-green">Another Button</a> -->
+<!--				-->
+<!--				</div>-->
+<!--				-->
+<!--		-->
+<!--			</div> &lt;!&ndash; End row div &ndash;&gt;    -->
+<!--</section>-->
+
+<!-- END TIRTH SECTION ############################################### -->
+
+
+
+<!-- Modal Window --> 
+
+<div class='modal' id='modal'>
+
+	  <div class='modal-content modal-anim--three'>
+
+		<iframe src="//player.vimeo.com/video/64291127?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="560" height="306" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+	  </div>
+
+</div>
+
+
+
+<!-- FOURTH SECTION ############################################### -->
+<!--<section class="page4">-->
+
+<!--	<div class="row">-->
+<!--		-->
+<!--				<div class="four columns article make-it-appear-right">-->
+<!--				-->
+<!--					&lt;!&ndash; Title &ndash;&gt; -->
+<!--				-->
+<!--					<h3>Pretty Simple and Detailed Code.</h3>-->
+<!--								-->
+<!--					&lt;!&ndash; Content &ndash;&gt; -->
+<!--					-->
+<!--					<p>Here is the simple exemple of the next section, as you can see, everything is pretty well detailed and easy to understand.</p>-->
+<!--										-->
+<!--					<div class="space"></div>-->
+<!--					-->
+<!--				-->
+<!--				</div>-->
+<!--				-->
+<!--				&lt;!&ndash; Image &ndash;&gt; -->
+<!--			-->
+<!--				<div class="seven columns picture make-it-appear-left" >-->
+<!--				-->
+<!--<pre>-->
+<!--		    	&lt;!&ndash; Article centered on the Page &ndash;&gt; -->
+<!--		-->
+<!--				<div class="twelve columns centered make-it-appear-top">-->
+
+<!--					&lt;!&ndash; Title &ndash;&gt; -->
+<!--				-->
+<!--					<h4>Finally! Simple and fair pricing.</h4>-->
+<!--													-->
+<!--					&lt;!&ndash; Content &ndash;&gt; -->
+<!--				-->
+<!--				-->
+<!--					<div class="cost">-->
+<!--						<p class="symbol">$</p>-->
+<!--						<p class="value">0</p>-->
+<!--					</div>-->
+<!--					-->
+<!--	-->
+<!--				</div>-->
+<!--</pre>-->
+<!--				-->
+<!--				</div>-->
+<!--		-->
+<!--			</div> &lt;!&ndash; End row div &ndash;&gt;    -->
+
+<!--</section>-->
+
+
+<!-- END FOURTH SECTION ############################################### -->
+
+
+
+<!-- FIFTH SECTION ############################################### -->
+
+
+<section class="page5">
+
+		
+		    <div class="row">
+		    
+		    	<!-- Article centered on the Page --> 
+		
+				<div class="twelve columns centered make-it-appear-top">
+
+					<!-- Title --> 
+				
+					<h4>识别结果从左至右相似度依次递减</h4>
+
+	
+				</div>
+		    </div>
+</section>
+
+<!-- END FIFTH SECTION ############################################### -->
+
+
+<!-- FOOTER SECTION ############################################### -->
+
+
+<section class="footer">
+
+		
+		    <div class="row">
+		    
+		    	<!-- Article centered on the Page --> 
+		
+				<div class="nine columns centered">
+				
+					<!-- Nav Footer --> 
+				
+<!--					<ul> -->
+<!--						<li><a href="http://www.iamsupview.be">About Supview</a> </li> -->
+<!--						<li> <a href="http://www.baribal.be/showpage/dl/">Get it</a> </li> -->
+<!--						<li> <a href="http://dribbble.com/Supview">Dribbble</a> </li> -->
+<!--						<li> <a href="http://www.facebook.com/Supview" rel="nofollow">Facebook</a> </li> -->
+<!--						<li> <a href="http://twitter.com/Supview" rel="nofollow">Twitter</a> </li> -->
+<!--						<li> <a href="http://www.behance.net/Supview" rel="nofollow">Behance</a> </li> -->
+<!--					</ul>-->
+
+					<!-- Title --> 
+					<p class="copyright">
+<!--					<p class="copyright">Showpage is a free app landing page made by -->
+<!--						<a href="http://www.iamsupview.be">Supview</a> and is under  -->
+<!--						<a href="http://creativecommons.org/licenses/by/4.0/">CC License</a> -->
+						<br>© Copyright 2014 Supview. All rights reserved.
+					</p>
+	
+					<!-- Logo --> 
+	
+	
+					<img class="logo" src="/static/img/logo.png" alt="Logo">
+	
+				</div>
+				
+		
+		    </div>
+			
+
+</section>
+
+
+<!-- END FOOTER SECTION ############################################### -->
+
+
+
+
+
+</div> <!-- end of container -->
+
+
+  <!-- Grab Google CDN's jQuery, fall back to local if offline -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+  
+  <script src="{{ url_for('static',filename='js/main.js') }}" type="text/javascript"></script> 								<!-- Main Javascript File -->
+  <script src="{{ url_for('static',filename='js/classie.js') }}" type="text/javascript"></script> 								<!-- Scroll from left & right -->
+  <script src="{{ url_for('static',filename='js/waypoints.min.js') }}" type="text/javascript"></script>						<!-- Waypoints -->
+  <script src="{{ url_for('static',filename='js/jquery.scrollto.js') }}" type="text/javascript"></script> 						<!-- ScrollTo -->
+  <script src="{{ url_for('static',filename='js/mediaCheck.js') }}" type="text/javascript"></script> 							<!-- MediaCheck -->
+
+
+  </body>
+  
+</html>
