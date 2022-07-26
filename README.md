@@ -13,7 +13,7 @@ Flask 2.0.2
 2. 启动程序
     run flask_run.py
 3. 打开网页进行测试
-   URL=http://192.168.199.181:5000/testpca
+   URL=http://127.0.0.1:5000/testpca
 
 ## 目录结构描述
 ├── README.md                   // help
