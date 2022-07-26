@@ -23,30 +23,57 @@ Flask 2.0.2
 ├── diffImage.png               // 测试脸与均值脸之差
 
 ├── RigenFace                   // 测试集的特征脸图像
+
 │   ├── 0.jpg
+
 │   ├── 1.jpg
+
 │   …
+
 │   └── 399.jpg            
+
 ├── mycode                      //代码
+
 │   ├── FaceDB_orl              //训练数据集，共40x9=360张
+
 │   │   ├── 001
+
 │   │   ├── 002
+
 │   │   …
+
 │   │   └── 040
+
 │   ├── FaceDB_orl_test         //测试数据集，共40x1=40张
+
 │   │   ├── 001
+
 │   │   ├── 002
+
 │   │   …
+
 │   │   └── 040
+
 │   ├── static                  //网页的静态文件
+
 │   │   ├── css                 //css文件
+
 │   │   ├── FaceDB_orl          //在网页展示检测结果
+
 │   │   ├── img                 //html的img资源
+
 │   │   ├── js                  //js文件
+
 │   │   └── uploads             //上传测试脸图片
+
 │   ├── templates  
+
 │   │   ├── hello.html          //功能测试页面
+
 │   │   ├── index.html          //主页面
+
 │   │   └── next.html           //检测结果跳转页面
+
 │   ├── flask_run.py            //Flask框架路由
+
 │   └── pca_feature.py          //PCA算法
